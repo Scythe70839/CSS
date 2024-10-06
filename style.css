@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://wallpapers.com/images/hd/wind-breaker-characters-on-bicycle-a9zpmc2mzc6q7gfp.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    animation: change 25s infinite ease-in-out;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #818fe0;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #818fe0;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #818fe0;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #818fe0;
+    border: 2px solid #818fe0;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial Narrow;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #818fe0;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #818fe0;
+    font-size: 65px
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.61)50%,rgba(0,0,0,0.61)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #818fe0;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #818fe0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #818fe0;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #818fe0;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #818fe0;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #818fe0;
+}
+
+@keyframes change{
+    100%{
+        background-image: url(https://wallpapers.com/images/hd/wind-breaker-characters-on-bicycle-a9zpmc2mzc6q7gfp.jpg);
+    }
+    80%{
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/177/181/83/bicycle-fixed-gear-wallpaper-preview.jpg);
+    }
+    60%{
+        background-image: url(https://t3.ftcdn.net/jpg/05/63/77/94/360_F_563779464_PXsCI8CSqxxnYyY9jTY67Q9b8I4HiDrj.jpg);
+    }
+    40%{
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210421/pngtree-colorful-world-bicycle-day-background-cycling-in-the-evening-sunset-rider-image_636594.jpg);
+    }
+}
+
+/*--------about---------*/
+
+.about{
+    padding: 50px, 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text-col h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+/*--------Bicycles---------*/
+.heading{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+    flex-basis: 50%;
+    text-align: center;
+}
+.bicycles{
+    width: 100%;
+    background: #bb7f7f;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 70%;
+    height: 70%;
+}
+.small-comtainer{
+    min-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.rating .fa{
+    color: #ff523b;
+}
+
+/*--------Buy---------*/
+.buy form{
+    padding: 2rem;
+    background-color: #818fe0;
+    box-shadow: var(--box-shadow);
+}
+.buy h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.buy form .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.buy form .box-container .box{
+    flex: 0 0 38rem;
+}
+.buy form .box-container .box .inputBox input,
+.buy form .box-container .box .inputBox textarea{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    border: var(--border);
+}
+.buy form .box-container .box .inputBox input::placeholder,
+.buy form .box-container .box .inputBox textarea::placeholder{
+    text-transform: capitalize;
+}
+.buy form .box-container .box .inputBox input:focus,
+.buy form .box-container .box .inputBox textarea:focus{
+    background: var(--main-color);
+    color: var(--white);
+}
+.buy form .box-container .box .inputBox input:focus::placeholder,
+.buy form .box-container .box .inputBox textarea:focus::placeholder{
+    color: #000;
+}
+.buy form .box-container .box .inputBox textarea{
+    height: 20rem;
+    resize: none;
+}
+.buy form .box-container .box .inputBox .map{
+    height: 20rem;
+    width: 100%;
+    margin: 1rem 0;
+    border: none;
+}
+.buy form .box-container .box .inputBox span{
+    color: #fff;
+    font-size: 2rem;
+}
+/*--------Footer---------*/
+.footer{
+    background-color: #fff;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.footer .icons-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.footer .icons-container .icons{
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.footer .icons-container .icons i{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background: var(--main-color);
+    color: var(--white);
+    margin-bottom: .5rem;
+    line-height: 5.8rem;
+    font-size: 2rem;
+}
+
+.footer .icons-container .icons h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+
+.footer .icons-container .icons p{
+    line-height: 1.5;
+    font-size: 1.7rem;
+    color: #d36580;
+    text-transform: capitalize;
+}
+
+.footer .icons-container .icons .link{
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: var(--main-color);
+    padding: .5rem 0;
+    display: block;
+}
+
+.footer .icons-container .icons .link:hover{
+    color: var(--hover);
+    text-decoration: underline;
+}
+
+.footer .share{
+    margin: 2rem 0;
+}
+
+.footer .share a{
+    height: 6rem;
+    width: 6rem;
+    line-height: 5.8rem;
+    color: var(--white);
+    background: var(--main-color);
+    margin: 0 .3rem;
+    font-size: 2.5rem;
+}
+
+.footer .share a:hover{
+    background: var(--hover);
+}
+
+.footer .credit{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color: var(--black);
+    border-top: var(--border);
+}
+
+.footer .credit span{
+    color: var(--main-color);
+}
+
+/* media queries */
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    section{
+        padding: 3rem 2rem;
+    }
+
+    .home .slide .content{
+        text-align: left;
+        width: 50rem;
+        padding-left: 9rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background-color: var(--white);
+        border-top: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a{
+        display: block;
+        margin: 2rem;
+    }
+
+    .home .slide .content{
+        text-align: left;
+        width: 40rem;
+        padding-left: 9rem;
+    }
+
+    .home .slide .content h3{
+        font-size: 4rem;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .home .slide .content h3{
+        font-size: 3rem;
+    }
+
+}
